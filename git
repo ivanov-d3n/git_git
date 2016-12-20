@@ -1,0 +1,36 @@
+d@d:~$ git config --global user.name "Denis Ivanov"
+d@d:~$ git config --global user.email "denis.x404@gmail.com"
+d@d:~$ git config --list
+d@d:~$ git config --global core.editor "vim"
+d@d:~$ curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash 
+d@d:~$ mv git-completion.bash ~/.git-completion.bash 
+
+git help
+
+d@d:~/Документы/git_test$ git init
+
+
+d@d:~/Документы/git_test$ git add .
+d@d:~/Документы/git_test$ git commit -m " test commit"
+внесли изменения
+добавить изменения
+за комитить изменения
+60 символ
+72 символа
+что делает комит
+
+git log какие измененя 
+git help log
+git log -n 1
+git log --until=2016-23-09
+git log --autor='denis' 
+git log --since=2016-23-09
+git status
+git diff
+git diff --staged
+git rm namefile
+git mv file1 file2
+test
+d@d:~$ git config --global user.name "ivanov-d3n"
+d@d:~$ git config --global user.email "ivanov.d3n@gmail.com"
+
